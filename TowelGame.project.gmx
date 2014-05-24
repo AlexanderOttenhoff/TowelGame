@@ -6,13 +6,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprTiles1</sprite>
-    <sprite>sprites\sprTiles2</sprite>
-    <sprite>sprites\sprTiles3</sprite>
-    <sprite>sprites\sprTiles4</sprite>
+    <sprite>sprites\sprShowerBigClosed</sprite>
+    <sprite>sprites\sprShowerBigOpen</sprite>
+    <sprite>sprites\sprShowerSmallClosed</sprite>
+    <sprite>sprites\sprShowerSmalOpen</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bckTiles</background>
+  </backgrounds>
   <paths name="paths"/>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
