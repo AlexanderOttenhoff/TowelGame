@@ -14,9 +14,6 @@
     <sprite>sprites\sprSink</sprite>
     <sprite>sprites\sprPlayer</sprite>
     <sprite>sprites\sprTowel</sprite>
-    <sprite>sprites\sprSoap</sprite>
-    <sprite>sprites\sprBlank</sprite>
-    <sprite>sprites\sprDroplet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckTiles</background>
@@ -28,9 +25,6 @@
     <object>objects\objShowerSmall</object>
     <object>objects\objSink</object>
     <object>objects\objReady</object>
-    <object>objects\objWall</object>
-    <object>objects\objSoap</object>
-    <object>objects\objDroplet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTest</room>
