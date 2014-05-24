@@ -10,6 +10,8 @@
     <sprite>sprites\sprShowerBigOpen</sprite>
     <sprite>sprites\sprShowerSmallClosed</sprite>
     <sprite>sprites\sprShowerSmalOpen</sprite>
+    <sprite>sprites\sprSinkBroken</sprite>
+    <sprite>sprites\sprSink</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckTiles</background>
