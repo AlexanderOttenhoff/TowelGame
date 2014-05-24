@@ -12,6 +12,7 @@
     <sprite>sprites\sprShowerSmalOpen</sprite>
     <sprite>sprites\sprSinkBroken</sprite>
     <sprite>sprites\sprSink</sprite>
+    <sprite>sprites\sprPlayer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckTiles</background>
