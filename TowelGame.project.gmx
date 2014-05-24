@@ -13,13 +13,14 @@
     <sprite>sprites\sprSinkBroken</sprite>
     <sprite>sprites\sprSink</sprite>
     <sprite>sprites\sprPlayer</sprite>
+    <sprite>sprites\sprTowel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckTiles</background>
   </backgrounds>
   <paths name="paths"/>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rmTest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
