@@ -90,41 +90,48 @@ if(joystick_exists(1))
 
 //Image speed control
 if speed != 0
+{
     image_speed = 0.5;
-else
-    image_speed = 0;
     
-//Image direction controls
-if direction &lt; 45 or direction &gt; 315
-{
-    if !(image_index &gt; 3 and image_index &lt; 5)
+    //Image direction controls
+    if direction &lt; 45 or direction &gt; 315
     {
-        image_index = 3;
+        //right
+        if !(image_index &gt; 3 and image_index &lt; 5)
+        {
+            image_index = 3;
+        }
+    }
+    else if direction &lt; 135 and direction &gt; 45
+    {
+        //up
+        if !(image_index &gt; 0 and image_index &lt; 3)
+        {
+            image_index = 0;
+        }
+    }
+    else if direction &lt; 225 and direction &gt; 135
+    {
+        //left
+        if !(image_index &gt; 9 and image_index &lt; 11)
+        {
+            image_index = 9;
+        }
+    }
+    else if direction &lt; 315 and direction &gt; 225
+    {
+        //down
+        if !(image_index &gt; 7 and image_index &lt; 9)
+        {
+            image_index = 7;
+        }
     }
 }
-/*
-if direction &lt; 135 or direction &gt; 45
+else
 {
-    if !(image_index &gt; 0 and image_index &lt; 3)
-    {
-        image_index = 0;
-    }
+    image_speed = 0;
 }
-if direction &lt; 225 or direction &gt; 135
-{
-    if !(image_index &gt; 9 and image_index &lt; 11)
-    {
-        image_index = 9;
-    }
-}
-if direction &lt; 315 or direction &gt; 225
-{
-    if !(image_index &gt; 7 and image_index &lt; 9)
-    {
-        image_index = 3;
-    }
-}
-*/
+
 </string>
           </argument>
         </arguments>
