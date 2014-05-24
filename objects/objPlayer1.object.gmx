@@ -86,6 +86,19 @@ if(joystick_exists(1))
 {    
     vspeed = joystick_ypos(1)*speedmultiplier;
     hspeed = joystick_xpos(1)*speedmultiplier; 
+} else {
+    vspeed = 0;
+    hspeed = 0;
+    if (keyboard_check(vk_up)) {
+        vspeed = -speedmultiplier;
+    } else if (keyboard_check(vk_down)) {
+        vspeed = speedmultiplier;
+    }
+    if (keyboard_check(vk_left)) {
+        hspeed = -speedmultiplier;
+    } else if (keyboard_check(vk_right)) {
+        hspeed = speedmultiplier;
+    }
 }
 
 //Image speed control
