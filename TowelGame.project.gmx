@@ -21,6 +21,7 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objPlayer1</object>
+    <object>objects\objTowel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmTest</room>
